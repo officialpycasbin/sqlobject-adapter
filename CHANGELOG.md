@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [0.3.0](https://github.com/officialpycasbin/sqlobject-adapter/compare/v0.2.0...v0.3.0) (2024-10-26)
+
+
+### Features
+
+* update path ([d201ef8](https://github.com/officialpycasbin/sqlobject-adapter/commit/d201ef84010b4f46864ef6e43d347e1547f0adec))
+
 # [0.2.0](https://github.com/officialpycasbin/sqlobject-adapter/compare/v0.1.1...v0.2.0) (2024-04-11)
 
 
