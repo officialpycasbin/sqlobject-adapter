@@ -1,8 +1,8 @@
 [project]
-name = "casbin_sqlobject_adapter"
+name = "sqlobject_adapter"
 version = "0.2.0"
 authors = [
-    {name = "TechLee", email = "techlee@qq.com"},
+    {name = "Casbin", email = "admin@casbin.org"},
 ]
 description = "SQLObject Adapter for PyCasbin"
 keywords=["casbin", "SQLObject", "casbin-adapter", "rbac", "access control", "abac", "acl", "permission"]
@@ -25,7 +25,7 @@ classifiers = [
 ]
 
 [project.urls]
-"Home-page" = "https://github.com/pycasbin/sqlobject-adapter"
+"Home-page" = "https://github.com/officialpycasbin/sqlobject-adapter"
 
 [build-system]
 requires = ["setuptools"]

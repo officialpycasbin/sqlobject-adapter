@@ -3,8 +3,8 @@ import unittest
 
 import casbin
 
-from casbin_sqlobject_adapter import Adapter
-from casbin_sqlobject_adapter import CasbinRule
+from sqlobject_adapter import Adapter
+from sqlobject_adapter import CasbinRule
 
 
 def get_fixture(path):

@@ -1,13 +1,13 @@
 SQLObject Adapter for PyCasbin
 ====
 
-[![GitHub Action](https://github.com/pycasbin/sqlobject-adapter/workflows/build/badge.svg)](https://github.com/pycasbin/sqlobject-adapter/actions)
-[![Coverage Status](https://coveralls.io/repos/github/pycasbin/sqlobject-adapter/badge.svg)](https://coveralls.io/github/pycasbin/sqlobject-adapter)
-[![Version](https://img.shields.io/pypi/v/casbin_sqlobject_adapter.svg)](https://pypi.org/project/casbin_sqlobject_adapter/)
-[![PyPI - Wheel](https://img.shields.io/pypi/wheel/casbin_sqlobject_adapter.svg)](https://pypi.org/project/casbin_sqlobject_adapter/)
-[![Pyversions](https://img.shields.io/pypi/pyversions/casbin_sqlobject_adapter.svg)](https://pypi.org/project/casbin_sqlobject_adapter/)
-[![Download](https://img.shields.io/pypi/dm/casbin_sqlobject_adapter.svg)](https://pypi.org/project/casbin_sqlobject_adapter/)
-[![License](https://img.shields.io/pypi/l/casbin_sqlobject_adapter.svg)](https://pypi.org/project/casbin_sqlobject_adapter/)
+[![GitHub Action](https://github.com/officialpycasbin/sqlobject-adapter/workflows/build/badge.svg)](https://github.com/officialpycasbin/sqlobject-adapter/actions)
+[![Coverage Status](https://coveralls.io/repos/github/officialpycasbin/sqlobject-adapter/badge.svg)](https://coveralls.io/github/officialpycasbin/sqlobject-adapter)
+[![Version](https://img.shields.io/pypi/v/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
+[![Pyversions](https://img.shields.io/pypi/pyversions/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
+[![Download](https://img.shields.io/pypi/dm/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
+[![License](https://img.shields.io/pypi/l/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
 
 SQLObject Adapter is the [SQLObject](http://www.sqlobject.org/index.html) adapter for [PyCasbin](https://github.com/casbin/pycasbin). With this library, Casbin can load policy from SQLObject supported database or save policy to it.
 
@@ -25,16 +25,16 @@ The current supported databases are:
 ## Installation
 
 ```
-pip install casbin_sqlobject_adapter
+pip install sqlobject_adapter
 ```
 
 ## Simple Example
 
 ```python
-import casbin_sqlobject_adapter
+import sqlobject_adapter
 import casbin
 
-adapter = casbin_sqlobject_adapter.Adapter('sqlite:///test.db')
+adapter = sqlobject_adapter.Adapter('sqlite:///test.db')
 
 e = casbin.Enforcer('path/to/model.conf', adapter, True)
 
