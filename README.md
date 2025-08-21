@@ -6,7 +6,7 @@ SQLObject Adapter for PyCasbin
 [![Version](https://img.shields.io/pypi/v/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
 [![PyPI - Wheel](https://img.shields.io/pypi/wheel/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
 [![Pyversions](https://img.shields.io/pypi/pyversions/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
-[![Download](https://img.shields.io/pypi/dm/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
+[![Download](https://static.pepy.tech/badge/sqlobject_adapter)](https://pypi.org/project/sqlobject_adapter/)
 [![License](https://img.shields.io/pypi/l/sqlobject_adapter.svg)](https://pypi.org/project/sqlobject_adapter/)
 
 SQLObject Adapter is the [SQLObject](http://www.sqlobject.org/index.html) adapter for [PyCasbin](https://github.com/casbin/pycasbin). With this library, Casbin can load policy from SQLObject supported database or save policy to it.
