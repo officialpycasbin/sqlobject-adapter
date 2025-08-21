@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [0.5.0](https://github.com/officialpycasbin/sqlobject-adapter/compare/v0.4.0...v0.5.0) (2025-08-21)
+
+
+### Features
+
+* fix README badges ([#2](https://github.com/officialpycasbin/sqlobject-adapter/issues/2)) ([84e1903](https://github.com/officialpycasbin/sqlobject-adapter/commit/84e1903524a57399730cf07cdc7a5e3a1a1994f0))
+
 # [0.4.0](https://github.com/officialpycasbin/sqlobject-adapter/compare/v0.3.0...v0.4.0) (2025-08-15)
 
 
